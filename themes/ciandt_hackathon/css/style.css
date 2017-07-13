@@ -1,0 +1,198 @@
+@import url(https://fonts.googleapis.com/css?family=Raleway);@import url(https://fonts.googleapis.com/css?family=Roboto);
+
+body.path-frontpage {
+    background: #ecf0f1;
+    color: #000;
+    font-family: 'Raleway',sans-serif;
+    font-size: 16px;
+    line-height: normal;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+    font-weight: 300
+}
+
+.path-frontpage .main-header nav{
+    background-color: #fff;
+    padding: 10px 0px;
+    border-radius: 0px;
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,.25);
+}
+
+.path-frontpage .main-header {
+    background: url(/themes/ciandt_hackathon/images/tokyo.jpg);
+    color: #fff;
+    padding: 0 0 10px 0;
+    margin-bottom: 20px;
+    background-size: cover;
+    min-height: 525px;
+    position: relative;
+}
+
+div.logo img {
+    max-height: 40px;
+}
+
+.path-frontpage .main-header:after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(35,35,35,0.55);
+}
+
+.path-frontpage .welcome-banner-text {
+   max-width: 800px; 
+}
+
+.path-frontpage h2 {
+    font-weight: 400;
+    font-size: 25px;
+    color: #d71f3c;
+}
+.path-frontpage .welcome-banner-text .block h2 {
+    font-weight: 500;
+    font-size: 60px;
+    color: #59f7ff;
+}
+
+.path-frontpage .welcome-banner-text p {
+    font-size: 25px;
+    color: #fff;
+    font-weight: 500;
+}
+
+.path-frontpage .copyright {
+    background: #aaa;
+    color: #fff;
+}
+
+.path-frontpage .content_layout p {
+    text-align: left;
+}
+
+/*** Table Styles **/
+.path-frontpage .content_layout table {
+    margin: auto !important;
+}
+
+.path-frontpage .content_layout .table-fill {
+  background: white;
+  border-radius:3px;
+  border-collapse: collapse;
+  height: 320px;
+  margin: auto;
+  max-width: 600px;
+  padding:5px;
+  width: 100%;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+  animation: float 5s infinite;
+  margin: auto;
+}
+ 
+.path-frontpage .content_layout th {
+  color:#D5DDE5;;
+  background:#1b1e24;
+  border-bottom:4px solid #9ea7af;
+  border-right: 1px solid #343a45;
+  font-size:23px;
+  font-weight: 100;
+  padding:24px;
+  text-align:left;
+  text-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+  vertical-align:middle;
+}
+
+.path-frontpage .content_layout th:first-child {
+  border-top-left-radius:3px;
+}
+ 
+.path-frontpage .content_layout th:last-child {
+  border-top-right-radius:3px;
+  border-right:none;
+}
+  
+.path-frontpage .content_layout tr {
+  border-top: 1px solid #C1C3D1;
+  border-bottom-: 1px solid #C1C3D1;
+  color:#666B85;
+  font-size:16px;
+  font-weight:normal;
+  text-shadow: 0 1px 1px rgba(256, 256, 256, 0.1);
+}
+ 
+.path-frontpage .content_layout tr:hover td {
+  background:#4E5066;
+  color:#FFFFFF;
+  border-top: 1px solid #22262e;
+  border-bottom: 1px solid #22262e;
+}
+
+.path-frontpage .content_layout tr:last-child td {
+  background:#555;
+  color:#FFFFFF;
+}
+ 
+.path-frontpage .content_layout tr:first-child {
+  border-top:none;
+}
+
+.path-frontpage .content_layout tr:last-child {
+  border-bottom:none;
+}
+ 
+.path-frontpage .content_layout tr:nth-child(odd) td {
+  background:#EBEBEB;
+}
+ 
+.path-frontpage .content_layout tr:nth-child(odd):hover td {
+  background:#4E5066;
+}
+
+.path-frontpage .content_layout tr:last-child td:first-child {
+  border-bottom-left-radius:3px;
+}
+ 
+.path-frontpage .content_layout tr:last-child td:last-child {
+  border-bottom-right-radius:3px;
+}
+ 
+.path-frontpage .content_layout td {
+  background:#FFFFFF;
+  padding:20px;
+  text-align:left;
+  vertical-align:middle;
+  font-weight:300;
+  font-size:18px;
+  text-shadow: -1px -1px 1px rgba(0, 0, 0, 0.1);
+  border-right: 1px solid #C1C3D1;
+}
+
+.path-frontpage .content_layout td:last-child {
+  border-right: 0px;
+}
+
+.path-frontpage .content_layout th.text-left {
+  text-align: left;
+}
+
+.path-frontpage .content_layout th.text-center {
+  text-align: center;
+}
+
+.path-frontpage .content_layout th.text-right {
+  text-align: right;
+}
+
+.path-frontpage .content_layout td.text-left {
+  text-align: left;
+}
+
+.path-frontpage .content_layout td.text-center {
+  text-align: center;
+}
+
+.path-frontpage .content_layout td.text-right {
+  text-align: right;
+}
