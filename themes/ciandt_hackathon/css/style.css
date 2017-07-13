@@ -51,6 +51,11 @@ div.logo img {
     font-size: 25px;
     color: #d71f3c;
 }
+
+.path-frontpage .region-content .block {
+    padding: 10px 200px;
+}
+
 .path-frontpage .welcome-banner-text .block h2 {
     font-weight: 500;
     font-size: 60px;
