@@ -1,0 +1,23 @@
+.vagrant/
+
+# Ignore binaries.
+/bin
+
+# Ignore non-custom parts of Drupal.
+/docroot/core
+/docroot/modules/contrib
+/docroot/profiles/contrib
+/docroot/themes/contrib
+/docroot/sites/default/files
+/docroot/sites/all/themes/astellasjp
+
+# Ignore Composer-managed dependencies.
+vendor/
+
+# Ignore all privates files.
+files-private/*
+/docroot/nbproject/private/
+/**/.idea/
+
+# Ignore node_modules
+node_modules
